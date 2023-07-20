@@ -6,7 +6,8 @@ const database = {
       length: 1.5,
       species: "Paracheirodon innesi",
       location: "South America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/Paracheirodon_innesi_neon_tetra.jpg",
     },
     {
       name: "Guppy",
@@ -14,7 +15,7 @@ const database = {
       length: 2,
       species: "Poecilia reticulata",
       location: "South America",
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Guppy_02.jpg",
     },
     {
       name: "Molly",
@@ -22,7 +23,8 @@ const database = {
       length: 3,
       species: "Poecilia sphenops",
       location: "Central and South America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Poecilia_sphenops.jpg",
     },
     {
       name: "Platy",
@@ -30,7 +32,8 @@ const database = {
       length: 2.5,
       species: "Xiphophorus maculatus",
       location: "Central America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/e/e6/Rainbow_wag_platy.jpg",
     },
     {
       name: "Swordtail",
@@ -38,7 +41,8 @@ const database = {
       length: 4,
       species: "Xiphophorus hellerii",
       location: "Central America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/6/60/Xiphophorus_hellerii_red_wagtail_female_01.jpg",
     },
     {
       name: "Angelfish",
@@ -46,7 +50,8 @@ const database = {
       length: 6,
       species: "Pterophyllum scalare",
       location: "South America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pterophyllum_scalare_male.jpg",
     },
     {
       name: "Dwarf Gourami",
@@ -54,7 +59,8 @@ const database = {
       length: 3,
       species: "Trichogaster lalius",
       location: "South Asia",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/d/d6/Colisa_lalia.jpg",
     },
     {
       name: "Betta Fish",
@@ -62,7 +68,8 @@ const database = {
       length: 3,
       species: "Betta splendens",
       location: "Southeast Asia",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Siamese_fighting_fish_%28Betta_splendens%29_female_orange.JPG",
     },
     {
       name: "Corydoras Catfish",
@@ -70,7 +77,8 @@ const database = {
       length: 2.5,
       species: "Corydoras sp.",
       location: "South America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/d/d2/Corydoras_sterbai_02.jpg",
     },
     {
       name: "Dalmatian Molly",
@@ -78,7 +86,8 @@ const database = {
       length: 4,
       species: "Poecilia sphenops",
       location: "Central America",
-      image: "",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dalmatian_molly.jpg",
     },
   ],
 };
