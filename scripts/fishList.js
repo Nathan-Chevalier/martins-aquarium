@@ -14,10 +14,11 @@ export const fishList = () => {
     htmlString += `<section class="fishCard">
             <div><img class="fish__image image--card" src="${fish.image}" /></div>
             <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.species}</div>
-            <div class="fish__length">${fish.length}cm</div>
-            <div class="fish__location">${fish.location}</div>
-            <div class="fish__diet">${fish.food}</div>
+            <hr>
+            <div class="fish__species fish--font"><b>Species: </b>${fish.species}</div>
+            <div class="fish__length fish--font"><b>Length: </b>${fish.length}cm</div>
+            <div class="fish__location fish--font"><b>Location: </b>${fish.location}</div>
+            <div class="fish__diet fish--font"><b>Food: </b>${fish.food}</div>
         </section>
 `;
   }

@@ -1,7 +1,7 @@
 const database = {
   fish: [
     {
-      name: "Neon Tetra",
+      name: "Future Cracker Spread",
       food: "Tropical flakes, small live/frozen foods",
       length: 1.5,
       species: "Paracheirodon innesi",
@@ -10,7 +10,7 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/5/52/Paracheirodon_innesi_neon_tetra.jpg",
     },
     {
-      name: "Guppy",
+      name: "John from Accounting",
       food: "Flakes, freeze-dried, live/frozen foods",
       length: 2,
       species: "Poecilia reticulata",
@@ -18,7 +18,7 @@ const database = {
       image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Guppy_02.jpg",
     },
     {
-      name: "Molly",
+      name: "Molly Molly",
       food: "Flakes, vegetable matter, live/frozen foods",
       length: 3,
       species: "Poecilia sphenops",
@@ -27,7 +27,7 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/9/9b/Poecilia_sphenops.jpg",
     },
     {
-      name: "Platy",
+      name: "Wags",
       food: "Flakes, vegetable matter, live/frozen foods",
       length: 2.5,
       species: "Xiphophorus maculatus",
@@ -36,7 +36,7 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/e/e6/Rainbow_wag_platy.jpg",
     },
     {
-      name: "Swordtail",
+      name: "Steven",
       food: "Flakes, live/frozen foods, vegetable matter",
       length: 4,
       species: "Xiphophorus hellerii",
@@ -45,16 +45,16 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/6/60/Xiphophorus_hellerii_red_wagtail_female_01.jpg",
     },
     {
-      name: "Angelfish",
+      name: "Metatron",
       food: "Flakes, live/frozen foods, small invertebrates",
       length: 6,
       species: "Pterophyllum scalare",
       location: "South America",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pterophyllum_scalare_male.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c7/Angelfish.jpg",
     },
     {
-      name: "Dwarf Gourami",
+      name: "Microflake",
       food: "Flakes, live/frozen foods, small invertebrates",
       length: 3,
       species: "Trichogaster lalius",
@@ -63,7 +63,7 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/d/d6/Colisa_lalia.jpg",
     },
     {
-      name: "Betta Fish",
+      name: "Banana",
       food: "Pellets, live/frozen foods, small invertebrates",
       length: 3,
       species: "Betta splendens",
@@ -72,7 +72,7 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/a/a7/Siamese_fighting_fish_%28Betta_splendens%29_female_orange.JPG",
     },
     {
-      name: "Corydoras Catfish",
+      name: "Hipster Kipper",
       food: "Sinking pellets, live/frozen foods",
       length: 2.5,
       species: "Corydoras sp.",
@@ -81,7 +81,7 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/d/d2/Corydoras_sterbai_02.jpg",
     },
     {
-      name: "Dalmatian Molly",
+      name: "Molly II",
       food: "Flakes, vegetable matter, live/frozen foods",
       length: 4,
       species: "Poecilia sphenops",
