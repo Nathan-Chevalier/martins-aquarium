@@ -3,7 +3,7 @@ const database = {
     {
       name: "Future Cracker Spread",
       food: "Tropical flakes, small live/frozen foods",
-      length: 1.5,
+      length: 12,
       species: "Paracheirodon innesi",
       location: "South America",
       image:
@@ -12,7 +12,7 @@ const database = {
     {
       name: "John from Accounting",
       food: "Flakes, freeze-dried, live/frozen foods",
-      length: 2,
+      length: 10,
       species: "Poecilia reticulata",
       location: "South America",
       image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Guppy_02.jpg",
@@ -20,7 +20,7 @@ const database = {
     {
       name: "Molly Molly",
       food: "Flakes, vegetable matter, live/frozen foods",
-      length: 3,
+      length: 6,
       species: "Poecilia sphenops",
       location: "Central and South America",
       image:
@@ -29,7 +29,7 @@ const database = {
     {
       name: "Wags",
       food: "Flakes, vegetable matter, live/frozen foods",
-      length: 2.5,
+      length: 12,
       species: "Xiphophorus maculatus",
       location: "Central America",
       image:
@@ -38,7 +38,7 @@ const database = {
     {
       name: "Steven",
       food: "Flakes, live/frozen foods, vegetable matter",
-      length: 4,
+      length: 5,
       species: "Xiphophorus hellerii",
       location: "Central America",
       image:
@@ -47,7 +47,7 @@ const database = {
     {
       name: "Metatron",
       food: "Flakes, live/frozen foods, small invertebrates",
-      length: 6,
+      length: 9,
       species: "Pterophyllum scalare",
       location: "South America",
       image:
@@ -74,7 +74,7 @@ const database = {
     {
       name: "Hipster Kipper",
       food: "Sinking pellets, live/frozen foods",
-      length: 2.5,
+      length: 20,
       species: "Corydoras sp.",
       location: "South America",
       image:
