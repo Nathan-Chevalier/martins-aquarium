@@ -8,7 +8,7 @@ body {
   justify-content: space-evenly;
   width: 70%;
   border: 2px solid rgb(255, 255, 255);
-  margin: 1em;
+  /*margin: 1em;*/
   background-color: #508991;
 }
 
@@ -45,4 +45,21 @@ header {
   font-family: Impact;
   text-align: center;
   color: #75dddd;
+}
+
+.header__flexbox {
+  position: absolute;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  color: aqua;
+}
+
+.tipsList {
+  height: 94%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 3%;
+  right: 1%;
+  background-color: red;
 }

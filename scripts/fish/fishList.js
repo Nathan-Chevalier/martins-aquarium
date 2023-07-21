@@ -29,6 +29,7 @@ const soldierFish = () => {
   return soldier;
 };
 
+// Filters "unworthy" fish who are divisible neither by 3 or 5
 const unworthyFish = () => {
   let unworthy = [];
   let fishes = getFish();
@@ -44,7 +45,8 @@ const unworthyFish = () => {
 export const holyFishList = () => {
   const fishes = mostHolyFish();
 
-  let htmlString = '<article class="fishList">';
+  let htmlString =
+    '<article class="fishList"><header class="header__flexbox">PRAISE THE HOLIEST OF FISH</header>';
 
   for (const fish of fishes) {
     htmlString += `<section class="fishCard">
@@ -66,7 +68,8 @@ export const holyFishList = () => {
 export const soldierFishList = () => {
   const fishes = soldierFish();
 
-  let htmlString = '<article class="fishList">';
+  let htmlString =
+    '<article class="fishList"><header class="header__flexbox">PRAISE BE THE SOLDIERS</header>';
 
   for (const fish of fishes) {
     htmlString += `<section class="fishCard">
@@ -88,7 +91,8 @@ export const soldierFishList = () => {
 export const unworthyFishList = () => {
   const fishes = unworthyFish();
 
-  let htmlString = '<article class="fishList">';
+  let htmlString =
+    '<article class="fishList"><header class="header__flexbox">CAST OUT YE WHO IS NOT CHOSEN</header>';
 
   for (const fish of fishes) {
     htmlString += `<section class="fishCard">
