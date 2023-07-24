@@ -90,8 +90,18 @@ const database = {
         "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dalmatian_molly.jpg",
     },
   ],
+  tips: [
+    `<b>Embrace Improbability:</b> Keep plenty of towels during water changes to minimize the risk of aquatic disasters.`,
+    `<b>Testing, the Infinite Loop:</b> Revel in the cosmic dance of water parameter testing with tripled test kits.`,
+    `<b>Watch for Hitchhikers:</b> Beware of sneaky stowaways in new fish additions, like algae spores and snails.`,
+    `<b>The Towel of Zen:</b> Stay remarkably relaxed in the face of aquarium uncertainties, just like the Infinite Improbability Drive's philosophy.`,
+  ],
 };
 
 export const getFish = () => {
   return database.fish.map((fish) => ({ ...fish }));
+};
+
+export const getTips = () => {
+  return database.tips.map((tips) => ({ ...tips }));
 };
