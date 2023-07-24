@@ -91,10 +91,61 @@ const database = {
     },
   ],
   tips: [
-    `<b>Embrace Improbability:</b> Keep plenty of towels during water changes to minimize the risk of aquatic disasters.`,
-    `<b>Testing, the Infinite Loop:</b> Revel in the cosmic dance of water parameter testing with tripled test kits.`,
-    `<b>Watch for Hitchhikers:</b> Beware of sneaky stowaways in new fish additions, like algae spores and snails.`,
-    `<b>The Towel of Zen:</b> Stay remarkably relaxed in the face of aquarium uncertainties, just like the Infinite Improbability Drive's philosophy.`,
+    {
+      id: 1,
+      quote: `<b>-- Embrace Improbability --</b> <br> <i>Keep plenty of towels during water changes to minimize the risk of aquatic disasters.</i>`,
+    },
+    {
+      id: 2,
+      quote: `<b>-- Testing, the Infinite Loop --</b> <br> <i>Revel in the cosmic dance of water parameter testing with tripled test kits.</i>`,
+    },
+    {
+      id: 3,
+      quote: `<b>-- Watch for Hitchhikers --</b> <br> <i>Beware of sneaky stowaways in new fish additions, like algae spores and snails.</i>`,
+    },
+    {
+      id: 4,
+      quote: `<b>-- The Towel of Zen --</b> <br> <i>Stay remarkably relaxed in the face of aquarium uncertainties, just like the Infinite Improbability Drive's philosophy.</i>`,
+    },
+  ],
+  locations: [
+    {
+      location: "Manaus, Brazil",
+      airport: "Eduardo Gomes International Airport (MAO)",
+    },
+    {
+      location: "Iquitos, Peru",
+      airport:
+        "Coronel FAP Francisco Secada Vignetta International Airport (IQT)",
+    },
+    {
+      location: "Jakarta, Indonesia",
+      airport: "Soekarno-Hatta International Airport (CGK)",
+    },
+    {
+      location: "Bangkok, Thailand",
+      airport: "Suvarnabhumi Airport (BKK)",
+    },
+    {
+      location: "Singapore, Singapore",
+      airport: "Changi Airport (SIN)",
+    },
+    {
+      location: "Colombo, Sri Lanka",
+      airport: "Bandaranaike International Airport (CMB)",
+    },
+    {
+      location: "Guangzhou, China",
+      airport: "Guangzhou Baiyun International Airport (CAN)",
+    },
+    {
+      location: "Nairobi, Kenya",
+      airport: "Jomo Kenyatta International Airport (NBO)",
+    },
+    {
+      location: "Lima, Peru",
+      airport: "Jorge Chávez International Airport (LIM)",
+    },
   ],
 };
 
