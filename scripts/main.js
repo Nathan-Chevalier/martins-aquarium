@@ -5,10 +5,14 @@ import {
   unworthyFishList,
 } from "./fish/fishList.js";
 
+import { tipsList } from "./tips/tipsList.js";
+
 const holyFishHTML = document.querySelector("#holyOutput");
 const soldierFishHTML = document.querySelector("#soldierOutput");
 const unworthyFishHTML = document.querySelector("#unworthyOutput");
+const tipsHTML = document.querySelector("#tipsOutput");
 
 holyFishHTML.innerHTML = holyFishList();
 soldierFishHTML.innerHTML = soldierFishList();
 unworthyFishHTML.innerHTML = unworthyFishList();
+tipsHTML.innerHTML = tipsList();
